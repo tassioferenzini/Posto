@@ -187,8 +187,8 @@ public class jframetanque extends javax.swing.JFrame {
 
         getContentPane().add(jTabbedPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 500, 270));
 
-        java.awt.Dimension screenSize = java.awt.Toolkit.getDefaultToolkit().getScreenSize();
-        setBounds((screenSize.width-529)/2, (screenSize.height-331)/2, 529, 331);
+        setSize(new java.awt.Dimension(529, 331));
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
     private void jbotaoaddtanqueActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbotaoaddtanqueActionPerformed
